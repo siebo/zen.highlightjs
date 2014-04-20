@@ -1,0 +1,24 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="zen.highlightjs">
+
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="Zen highlight.js"
+      />
+
+  <browser:resourceDirectory
+      name="zen.highlightjs.styles"
+      directory="styles"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+  <browser:resourceDirectory
+      name="zen.highlightjs.js"
+      directory="js"
+      layer=".interfaces.IThemeSpecific"
+      />
+
+</configure>
