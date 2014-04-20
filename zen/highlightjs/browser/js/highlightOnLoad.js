@@ -1,5 +1,5 @@
 jq(document).ready(function(){
 
-  hljs.initHighlightingOnLoad();
+  $('pre').each(function(i, e) {hljs.highlightBlock(e)});
 
 });
