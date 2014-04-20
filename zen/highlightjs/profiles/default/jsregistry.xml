@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<object name="portal_javascripts">
+
+ <javascript
+    id="++resource++zen.highlightjs.js/highlight.pack.js"
+    cacheable="True" compression="safe" cookable="True"
+	enabled="True" inline="False"/>
+
+ <javascript
+    id="++resource++zen.highlightjs.js/highlightOnLoad.js"
+    cacheable="True" compression="safe" cookable="True"
+	enabled="True" inline="False"/>
+
+</object>
